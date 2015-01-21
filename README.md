@@ -1,2 +1,2 @@
-# neosnippet-mocha
-neosnippet snippets for mocha framework
+# neosnippets-mocha
+Neosnippet snippets for Mocha framework.
