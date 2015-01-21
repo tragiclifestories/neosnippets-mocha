@@ -1,0 +1,25 @@
+snippet bfe
+abbr beforeEach
+options head
+    beforeEach(function() {
+        ${0:TARGET}
+    });
+
+snippet it
+options head
+    it('${1:description}', function() {
+        ${0:TARGET}
+    });
+
+snippet afe
+options head
+    afterEach(function() {
+        ${0:target}
+    })
+
+snippet ds
+options head
+    describe('${1:description}', function() {
+        ${0:TARGET}
+    })
+
