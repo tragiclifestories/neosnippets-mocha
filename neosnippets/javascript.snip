@@ -5,7 +5,8 @@ options head
         ${0:TARGET}
     });
 
-snippet it
+snippet it-mocha
+abbr it
 options head
     it('${1:description}', function(${2:done}) {
         ${0:TARGET}
@@ -17,7 +18,8 @@ options head
         ${0:target}
     })
 
-snippet desc
+snippet describe
+abbr desc
 options head
     describe('${1:description}', function() {
         ${0:TARGET}
