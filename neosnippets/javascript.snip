@@ -7,7 +7,7 @@ options head
 
 snippet it
 options head
-    it('${1:description}', function() {
+    it('${1:description}', function(${2:done}) {
         ${0:TARGET}
     });
 
@@ -17,7 +17,7 @@ options head
         ${0:target}
     })
 
-snippet ds
+snippet desc
 options head
     describe('${1:description}', function() {
         ${0:TARGET}
